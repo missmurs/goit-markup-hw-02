@@ -4,83 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
     <title>Portfolio</title>
 </head>
 
 <body>
-    <!-- Heder Portfolio -->
+    <!-- Heder Portfolio section-->
     <header>
         <nav>
+
             <a href="./index.html" class="link">
                 <div class="logo">
                     <span class="web">WEB</span><span class="studio">STUDIO</span>
                 </div>
             </a>
+
             <ul class="list">
-                <li><a href="./studio.html" class="link"><span class="Stud">Studio</span>Studio</a></li>
+                <li><a href="./studio.html" class="link">Studio</a></li>
                 <li><a href="./portfolio.html" class="link">Portfolio</a></li>
                 <li><a href="./contacts.html" class="link">Contacts</a></li>
             </ul>
         </nav>
         <address>
-            <ul>
+            <ul class="list">
                 <li><a href='mailto:info@devstudio.com' class="link">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
 
     </header>
-
+    <!-- Portfolio section -->
     <main>
-        <section>
-            <div>
-                <button type="button">All</button>
-                <button type="button">Web Site</button>
-                <button type="button">App</button>
-                <button type="button">Design</button>
-                <button type="button">Marketing</button>
+        <section class="portfolio-section">
+            <div class="button-container"></div>
+            <button type="button" class="button-filter"><span class="button-filter-text">All</span></button>
+            <button type="button" class="button-filter"><span class="button-filter-text">Web Site</span></button>
+            <button type="button" class="button-filter"><span class="button-filter-text">App</span></button>
+            <button type="button" class="button-filter"><span class="button-filter-text">Design</span></button>
+            <button type="button" class="button-filter"><span class="button-filter-text">Marketing</span></button>
             </div>
-            <ul>
-                <li><img src="./images/portfolio/Banking_Concept.jpg" alt="Banking App Interface Concept">
-                    <h2>Banking App Interface Concept</h2>
-                    <p>App</p>
+            <ul class="list">
+                <li class="portfolio-item"><img src="./images/portfolio/Banking_Concept.jpg"
+                        alt="Banking App Interface Concept">
+                    <h2 class="portfolio-title">Banking App Interface Concept</h2>
+                    <p class="portfolio-text">App</p>
                 </li>
-                <li><img src="/images/portfolio/Cashless_Payment.jpg" alt="Cashless Payment">
-                    <h2>Cashless Payment</h2>
-                    <p>Marketing</p>
+                <li class="portfolio-item"><img src="/images/portfolio/Cashless_Payment.jpg" alt="Cashless Payment">
+                    <h2 class="portfolio-title">Cashless Payment</h2>
+                    <p class="portfolio-text">Marketing</p>
                 </li>
-                <li><img src="./images/portfolio/Meditation_App.jpg" alt="Meditation App">
-                    <h2>Meditation App</h2>
-                    <p>App</p>
+                <li class="portfolio-item"><img src="./images/portfolio/Meditation_App.jpg" alt="Meditation App">
+                    <h2 class="portfolio-title">Meditation App</h2>
+                    <p class="portfolio-text">App</p>
                 </li>
-                <li><img src="./images/portfolio/Taxi_Service.jpg" alt="Taxi">
-                    <h2>Taxi Service</h2>
-                    <p>Marketing</p>
+                <li class="portfolio-item"><img src="./images/portfolio/Taxi_Service.jpg" alt="Taxi">
+                    <h2 class="portfolio-title">Taxi Service</h2>
+                    <p class="portfolio-text">Marketing</p>
                 </li>
-                <li><img src="./images/portfolio/Screen_Illustrations.jpg" alt="Screen Illustrations">
-                    <h2>Screen Illustrations</h2>
-                    <p>Design</p>
+                <li class="portfolio-item"><img src="./images/portfolio/Screen_Illustrations.jpg"
+                        alt="Screen Illustrations">
+                    <h2 class="portfolio-title">Screen Illustrations</h2>
+                    <p class="portfolio-text">Design</p>
                 </li>
-                <li><img src="./images/portfolio/Online_Courses.jpg" alt="Girl see phone">
-                    <h2>Online Courses</h2>
-                    <p>Marketing</p>
+                <li class="portfolio-item"><img src="./images/portfolio/Online_Courses.jpg" alt="Girl see phone">
+                    <h2 class="portfolio-title">Online Courses</h2>
+                    <p class="portfolio-text">Marketing</p>
                 </li>
                 <li><img src="./images/portfolio/Instagram_Stories.jpg" alt="Instagram Stories">
-                    <h2>Instagram Stories Concept</h2>
-                    <p>Design</p>
+                    <h2 class="portfolio-title">Instagram Stories Concept</h2>
+                    <p class="portfolio-text">Design</p>
                 </li>
-                <li><img src="./images/portfolio/Organic _Food.jpg" alt="Organic Food">
-                    <h2>Organic Food</h2>
-                    <p>Web Site</p>
+                <li class="portfolio-item"><img src="./images/portfolio/Organic _Food.jpg" alt="Organic Food">
+                    <h2 class="portfolio-title">Organic Food</h2>
+                    <p class="portfolio-text">Web Site</p>
                 </li>
-                <li><img src="./images/portfolio/Fresh_Coffee.jpg" alt="Fresh Coffee">
-                    <h2>Fresh Coffee</h2>
-                    <p>Web Site</p>
+                <li class="portfolio-item"><img src="./images/portfolio/Fresh_Coffee.jpg" alt="Fresh Coffee">
+                    <h2 class="portfolio-title">Fresh Coffee</h2>
+                    <p class="portfolio-text">Web Site</p>
                 </li>
             </ul>
         </section>
     </main>
-
+    <!-- Footer section -->
     <footer class="footer-section">
         <a href="./index.html" class="link">
             <div class="logo-footer">
