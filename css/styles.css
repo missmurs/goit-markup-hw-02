@@ -5,8 +5,8 @@
  */
 .body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
   background: #fff;
+  color: #434455;
 }
 .link {
   text-decoration: none;
@@ -134,6 +134,7 @@
 .team-title {
   text-align: center;
   font-size: 36px;
+  line-height: 1.11;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
