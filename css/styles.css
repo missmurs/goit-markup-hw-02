@@ -84,14 +84,6 @@ body {
 .hero-button {
   background: var(--iris);
   cursor: pointer;
-}
-.hero-button:hover {
-  background: var(--ocean);
-}
-.hero-button:focus {
-  background: var(--ocean);
-}
-.button-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -99,6 +91,13 @@ body {
   letter-spacing: 0.04em;
   color: var(--white);
 }
+.hero-button:hover {
+  background: var(--ocean);
+}
+.hero-button:focus {
+  background: var(--ocean);
+}
+
 /**
    |============================
    | Advantages styles
