@@ -83,6 +83,7 @@ body {
 }
 .hero-button {
   background: var(--iris);
+  cursor: pointer;
 }
 .hero-button:hover {
   background: var(--ocean);
