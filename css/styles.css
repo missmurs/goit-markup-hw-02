@@ -176,12 +176,10 @@
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-.web-footer {
   color: var(--iris);
 }
 .studio-footer {
-  color: var(--cloud);
+  color: #f4f4fd;
 }
 .footer-text {
   color: var(--cloud);
