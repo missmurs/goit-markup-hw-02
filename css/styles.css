@@ -34,11 +34,9 @@ body {
 */
 .logo {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
   font-weight: 800;
+  font-size: 18px;
   line-height: 1.17;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -46,6 +44,28 @@ body {
 
 .studio {
   color: var(--navyblue);
+}
+.list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.list-item:hover {
+  color: var(--ocean);
+}
+.address {
+  font-style: normal;
+}
+.address-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.address-list-item:hover .address-list-item:focus {
+  color: var(--ocean);
 }
 /**
    |============================
