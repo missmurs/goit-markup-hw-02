@@ -132,14 +132,13 @@ body {
 .make-section {
 }
 .make-title {
-  text-align: center;
   font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--navyblue);
 }
-
 .make-item {
 }
 
