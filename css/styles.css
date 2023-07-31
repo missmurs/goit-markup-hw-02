@@ -154,15 +154,12 @@ body {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
-  font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: var(--navyblue);
 }
 
 .team-item {
-  border-radius: 0px 0px 4px 4px;
   background: var(--white);
 }
 .team-name {
