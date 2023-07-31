@@ -11,10 +11,10 @@
   --cloud: #f4f4fd;
   --slate: #434455;
 }
-.body {
+body {
   font-family: Roboto, sans-serif;
   background: #fff;
-  color: #434455;
+  color: var(--slate);
 }
 .link {
   text-decoration: none;
@@ -135,6 +135,7 @@
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  color: var(--navyblue);
 }
 
 .team-item {
@@ -174,7 +175,7 @@
   color: var(--iris);
 }
 .studio-footer {
-  color: #f4f4fd;
+  color: var(--slate);
 }
 .footer-text {
   color: var(--cloud);
