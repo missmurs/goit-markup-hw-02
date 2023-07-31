@@ -40,9 +40,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.web {
-  color: var(--iris);
-}
+
 .studio {
   color: var(--navyblue);
 }
