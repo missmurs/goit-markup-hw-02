@@ -162,19 +162,14 @@
   |============================
 */
 .footer-section {
-  font-family: "Raleway";
+  background: var(--navyblue);
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  background: var(--navyblue);
-}
-.logo-footer {
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--iris);
 }
