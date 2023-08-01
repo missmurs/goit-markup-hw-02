@@ -120,6 +120,13 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+.advantages-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
 /**
   |============================
   | Make styles
