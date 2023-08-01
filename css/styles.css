@@ -76,6 +76,7 @@ body {
 .hero-title {
   color: var(--white);
   text-align: center;
+  line-height: 1.07;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px; /* 107.143% */
