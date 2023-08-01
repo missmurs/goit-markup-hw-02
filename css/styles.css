@@ -209,7 +209,16 @@ body {
   | Portfolio styles
   |============================
 */
-
+.button-filter {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  cursor: pointer;
+}
 .button-filter-text {
   color: var(--white);
   text-align: center;
@@ -219,24 +228,26 @@ body {
   letter-spacing: 0.64px;
 }
 
-.button-filter-text:hover {
-  color: var(--iris);
-}
-
 .button-filter:hover {
-  background: var(--cloud);
+  background-color: var(--ocean);
+  color: var(--white);
 }
-
+.button-filter:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+.portfolio-title-h1 {
+}
 .portfolio-title {
-  font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
 }
 .portfolio-text {
-  color: var(--slate);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
