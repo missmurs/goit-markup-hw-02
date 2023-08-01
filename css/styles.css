@@ -134,7 +134,13 @@ body {
   text-transform: capitalize;
   color: var(--navyblue);
 }
-
+.make-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
 /**
   |============================
   | Team styles
@@ -153,6 +159,7 @@ body {
 
 .team-item {
   background: var(--white);
+  color: var(--navyblue);
 }
 .team-name {
   text-align: center;
@@ -188,7 +195,7 @@ body {
   color: var(--iris);
 }
 .studio-footer {
-  color: var(--slate);
+  color: var(--cloud);
 }
 .footer-text {
   color: var(--cloud);
