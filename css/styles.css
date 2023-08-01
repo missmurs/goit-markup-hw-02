@@ -104,8 +104,7 @@ body {
    | Advantages styles
    |============================
  */
-.advantages-section {
-}
+
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -114,10 +113,6 @@ body {
   color: var(--navyblue);
 }
 
-.advantages-item {
-}
-.advantages-item-title {
-}
 .advantages-text {
   color: var(--slate);
   font-size: 16px;
@@ -130,8 +125,7 @@ body {
   | Make styles
   |============================
 */
-.make-section {
-}
+
 .make-title {
   font-size: 36px;
   line-height: 1.11;
@@ -139,8 +133,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
-}
-.make-item {
 }
 
 /**
@@ -155,7 +147,6 @@ body {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.72px;
   text-transform: capitalize;
   color: var(--navyblue);
 }
@@ -169,6 +160,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  color: var(--navyblue);
 }
 .team-text {
   color: var(--slate);
@@ -210,12 +202,7 @@ body {
   | Portfolio styles
   |============================
 */
-.portfolio-section {
-}
-.button-container {
-}
-.button-filter {
-}
+
 .button-filter-text {
   color: var(--white);
   text-align: center;
@@ -232,8 +219,7 @@ body {
 .button-filter:hover {
   background: var(--cloud);
 }
-.portfolio-item {
-}
+
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
